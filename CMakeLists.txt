@@ -3,4 +3,4 @@ project(NumericalAnalysis)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(NumericalAnalysis main.cpp)
+add_executable(NumericalAnalysis main.cpp gauss_seidel.cpp newton.cpp)
